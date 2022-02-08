@@ -48,7 +48,7 @@ providers:
     type: InfrastructureProvider
     versions:
       - name: v1.1.1
-        value: https://github.com/kubernetes-sigs/cluster-api-provider-azure/releases/download/v1.1.1/infrastructure-components.yaml
+        value: https://raw.githubusercontent.com/jackfrancis/cluster-api-provider-azure/validate-maxpods/config/infrastructure-components.yaml
         type: url
         files:
           - sourcePath: "../data/shared/infra_metadata.yaml"
